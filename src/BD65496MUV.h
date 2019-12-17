@@ -29,9 +29,12 @@ class BD65496MUV {
 // Begin PUBLIC ------------------------------------------------------------------
     public:
 
+        enum Mode {H_Bridge, Speed_n_Dir};
+
         // constructors
-        BD65496MUV();                     // Main construcor of the TCA9548A class.
-        ~BD65496MUV();                    // Main destructor  of the TCA9548A class.
+        BD65496MUV(Mode mode, uint8_t pinInA, uint8_t pinInB);                          // Constructor of the BD65496MUV class without the pwm mode pin.
+        BD65496MUV(Mode mode, uint8_t pinInA, uint8_t pinInB, uint8_t pinPwmMode);      // Constructor of the BD65496MUV class with the pwm mode pin.
+        ~BD65496MUV();                                                                  // Main destructor  of the BD65496MUV class.
 
         // functions
         uint16_t get_version();         // Get the version of the library.
@@ -40,6 +43,16 @@ class BD65496MUV {
 
 // Begin PRIVATE -----------------------------------------------------------------        
     private:
+
+        // variables
+        Mode _driverMode;
+        uint8_t _pinInA;
+        uint8_t _pinInB;
+        uint8_t _pinPwmMode;
+
+        // functions 
+        void _initDriverPins();
+
 
 // End PRIVATE -------------------------------------------------------------------
 };
