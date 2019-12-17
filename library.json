@@ -1,0 +1,33 @@
+{
+    "name": "BD65496MUV",
+    "keywords": "motor, arduino, dc, brushed, single, BD65496MUV",
+    "description": "Arduino library for the BD65496MUV Single Brushed DC Motor Driver.",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/teamonestone/BD65496MUV.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Jonas Merkle [JJM]",
+        "email": "jonas.merkle@tam-onestone.net"
+      },
+      {
+        "name": "Dominik Authaler",
+        "email": "dominik.authaler@tam-onestone.net"
+      },
+      {
+        "name": "Team Onestone",
+        "email": "info@team-onestone.net",
+        "url": "http://team-onestone.net",
+        "maintainer": true
+      }
+    ],
+    "dependencies":
+      "frameworks": "arduino"
+    },
+    "version": "1.0.0",
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
