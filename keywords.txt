@@ -1,0 +1,49 @@
+#######################################
+# Syntax Coloring Map For ExampleLibrary
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+BD65496MUV	KEYWORD1
+DriverMode	KEYWORD1
+PowerMode	KEYWORD1
+SwitchingSpeed	KEYWORD1
+ShortBreakMode	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setSpeed	KEYWORD2
+getSpeed	KEYWORD2
+setDriverMode	KEYWORD2
+getDriverMode	KEYWORD2
+setPowerMode	KEYWORD2
+getPowerMode	KEYWORD2
+setSwitchingSpeed	KEYWORD2	
+getSwitchingSpeed	KEYWORD2
+setShortBreakMode	KEYWORD2
+getShortBreakMode	KEYWORD2
+getVersion	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+motA	KEYWORD2
+motB	KEYWORD2
+motC	KEYWORD2
+motD	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+Speed_n_Dir		LITERAL1
+H_Bridge	LITERAL1
+Running		LITERAL1
+Standby		LITERAL1
+On150_Off50		LITERAL1
+On250_Off70		LITERAL1
+On350_Off90		LITERAL1
+On500_Off110	LITERAL1
+On		LITERAL1
+Off		LITERAL1
