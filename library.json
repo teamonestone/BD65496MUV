@@ -1,6 +1,6 @@
 {
     "name": "BD65496MUV",
-    "keywords": "motor, arduino, dc, brushed, single, BD65496MUV",
+    "keywords": "motor, arduino, dc, brushed, driver, single, BD65496MUV",
     "description": "Arduino library for the BD65496MUV Single Brushed DC Motor Driver.",
     "repository":
     {
@@ -25,6 +25,7 @@
       }
     ],
     "dependencies":
+    {
       "frameworks": "arduino"
     },
     "version": "1.0.0",
