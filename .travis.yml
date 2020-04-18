@@ -20,6 +20,11 @@ before_install:
   - source <(curl -SLs https://raw.githubusercontent.com/teamonestone/travis-ci-arduino/master/install.sh)
 install:
 script:
-  - build_main_platforms
+  - build_platform uno
+  - build_platform mega2560
+  - build_platform esp8266
+  - build_platform m4
+  - build_platform zero
+  - build_platform leonardo
 after_success:
   - source <(curl -SLs https://raw.githubusercontent.com/teamonestone/travis-ci-arduino/master/doxy_gen_and_deploy.sh)
